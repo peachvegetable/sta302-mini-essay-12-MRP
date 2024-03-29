@@ -1,0 +1,49 @@
+---
+title: "Model card for  2020 US Cooperative Election"
+author: 
+  - Yihang Cai
+thanks: "Code and data are available at: https://github.com/peachvegetable/sta302-mini-essay-12-MRP"
+date: today
+date-format: long
+format: pdf
+number-sections: true
+---
+
+Extract of the questions from @gebru2021datasheets.
+
+
+**Model Details**
+
+1. *What type of model is it?*
+    - A logistic regression model trained to predict voter preferences in the 2020 US Presidential Election.
+
+**Intended Use**
+
+1. *Who are the intended users of the model?*
+	- Political analysts, campaign strategists, and researchers in political science.
+2. *What is the intended use of the model?*
+	- To predict voter turnout and preferences based on demographic and historical voting data.
+
+**Metrics**
+
+1. *What metrics are used to evaluate the model?*
+	- Accuracy, AUC-ROC, precision, recall, and F1 score for classification performance.
+
+**Training Data**
+
+1. *What data was used to train the model?*
+	- The 2020 US Cooperative Election Study dataset, supplemented with the voter file for post-stratification.
+
+**Ethical Considerations**
+
+1. *What ethical considerations were made?*
+	- Ensuring the privacy and anonymity of voters, avoiding model biases, and transparency in model usage and outcomes.
+
+**Caveats and Recommendations**
+
+1. *What are the limitations of the model?*
+	- Potential biases due to over/under-representation of certain demographic groups in the training data.
+2. *Recommendations for model users.*
+	- Use the model with awareness of its limitations, regularly update the model with new data, and consider multiple models for comprehensive analysis.
+
+\newpage

@@ -1,0 +1,23 @@
+---
+title: "Ethical aspects and tests"
+author: 
+  - Yihang Cai
+thanks: "Code and data are available at: https://github.com/peachvegetable/sta302-mini-essay-12-MRP"
+date: today
+date-format: long
+format: pdf
+number-sections: true
+---
+
+**Ethical Aspects**
+
+1. Privacy and Anonymity: Handling voter data requires strict adherence to privacy laws and ethical standards. Personal identifiers must be removed or anonymized to protect voter privacy. Ethical considerations involve ensuring the data does not inadvertently reveal voter identities or sensitive information.
+2. Bias and Fairness: Voter datasets can contain biases based on race, gender, or socio-economic status, leading to skewed model predictions. Ethical considerations involve actively identifying and mitigating these biases to ensure fair and unbiased model outcomes.
+3. Transparency and Accountability: The use of voter data in models can influence political strategies and decisions. Ethical considerations include being transparent about how models are used and being accountable for the impacts they may have on public opinion and election outcomes.
+
+**Tests for the Dataset, Model, and Predictions**
+
+1. Dataset Integrity Tests: Verify the completeness, accuracy, and consistency of the voter file. Check for missing values, duplicate entries, and data anomalies.
+2. Model Validation Tests: Perform cross-validation to assess the model's performance on unseen data. Use a hold-out validation set to test generalization.
+3. Predictive Performance Tests: Evaluate the model's predictions against real-world election outcomes to assess accuracy. Analyze the model's confidence intervals and error margins.
+4. Bias and Fairness Tests: Conduct tests to identify and measure biases in the model's predictions across different demographic groups. Adjust the model as necessary to mitigate identified biases.
